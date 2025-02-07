@@ -1,11 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1738894081.12595 "d:/Studies/Masters/CO-OP/AaryenResume/SD/main.tex" "main.pdf" "main" 1738894083.82459 0
+["pdflatex"] 1738894549.47904 "d:/Studies/Masters/CO-OP/AaryenResume/SD/main.tex" "main.pdf" "main" 1738894551.16728 0
   "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1738879782 870746 65bfbd5f1be91bb5a54a875bbbb5ea86 ""
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738875845 24224573 1fd7b39a7b92c8e860104b55f1da80a4 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136790254 2732 006d846b4d54f9b40899c7c3eecd771a ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/bitstrea/charter/bchb8r.tfm" 1136790254 5184 4fd08a9613e75c1da82714d79cf8b4f1 ""
-  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/bitstrea/charter/bchbc7t.tfm" 1136790254 3592 4e65f7bb72a80801d3c0a29985f2b24d ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/bitstrea/charter/bchr7t.tfm" 1136790254 2472 ab22c035363bbb0eb24fc2ce6fa2d921 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/bitstrea/charter/bchr8r.tfm" 1136790254 4644 551129616ea4f62d8f0094a3db9a3f9d ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/bitstrea/charter/bchrc7t.tfm" 1136790254 3476 7425233da115a839f6749985251180bd ""
@@ -35,7 +34,6 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/vf/bitstrea/charter/bchb7t.vf" 1136790254 1372 ea6b112e4d27477183c2c2a90a3b7b01 ""
-  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/vf/bitstrea/charter/bchbc7t.vf" 1136790254 1948 8756c185d16c133ab8b62dca88f95869 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/vf/bitstrea/charter/bchr7t.vf" 1136790254 1372 955cf021d0094e95829436b7bdab6458 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/vf/bitstrea/charter/bchrc7t.vf" 1136790254 1948 35abb510befa010fcb6eda2b3e0faf72 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/vf/bitstrea/charter/bchri7t.vf" 1136790254 1376 2c4801330fd387c4a485e772ce95483c ""
@@ -98,10 +96,10 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/Studies/Masters/CO-OP/AaryenResume/SD/main.tex" 1738894077 9324 bf6d84781ba97aca761f89fd3606fc55 ""
-  "main.aux" 1738894083 673 73942b5a7173ade367b3b1f1b32cfae6 "pdflatex"
-  "main.out" 1738894083 390 c20df0732a26e929d2e5c5462d70cbf8 "pdflatex"
-  "main.tex" 1738894077 9324 bf6d84781ba97aca761f89fd3606fc55 ""
+  "d:/Studies/Masters/CO-OP/AaryenResume/SD/main.tex" 1738894547 9318 65cb5edb9a110371255bfefa678b9dc3 ""
+  "main.aux" 1738894550 673 73942b5a7173ade367b3b1f1b32cfae6 "pdflatex"
+  "main.out" 1738894550 390 c20df0732a26e929d2e5c5462d70cbf8 "pdflatex"
+  "main.tex" 1738894547 9318 65cb5edb9a110371255bfefa678b9dc3 ""
   (generated)
   "main.aux"
   "main.log"
