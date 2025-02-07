@@ -1,6 +1,6 @@
-PWD d:\Studies\Masters\CO-OP\AaryenResume
+PWD d:\Studies\Masters\CO-OP\AaryenResume\SD
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Studies\Masters\CO-OP\AaryenResume\main.tex
+INPUT d:\Studies\Masters\CO-OP\AaryenResume\SD\main.tex
 OUTPUT main.log
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -185,10 +185,10 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\vf\bitstrea\charter\bchb
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchb8r.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\vf\bitstrea\charter\bchb7t.vf
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchb8r.tfm
-INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\vf\bitstrea\charter\bchr7t.vf
-INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchr8r.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\vf\bitstrea\charter\bchri7t.vf
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchri8r.tfm
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\vf\bitstrea\charter\bchr7t.vf
+INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchr8r.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out

@@ -70,6 +70,13 @@
   }
 }
 
+\newcommand{\resumeExperienceSubheading}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \emph{\small#2} & #3 \\
+      \textit{\small#4} & \textit{\small #5} \\
+    \end{tabular*}\vspace{-7pt}
+}
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -125,10 +132,11 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Languages}{: Java, JavaScript, TypeScript, Python, C, SQL, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Express, WordPress, Material-UI, Bootstrap, Tailwind CSS} \\
+     \textbf{Databases}{:Oracle SQL, PostgreSQL, MySQL, MongoDB} \\
+     \textbf{Developer Tools}{: Git, GitHub, Docker, VS Code, IntelliJ, Postman, Microsoft Office, Firebase, Figma, Canva} \\
+     \textbf{Other Skills}{: Windows, Linux/Unix (Ubuntu, CentOS), Shell Scripting}
     }}
  \end{itemize}
 
@@ -137,13 +145,14 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+    \resumeExperienceSubheading
+      {Software Engineer}{$|$ Oracle SQL, MS Excel, Bash/Shell Scripting, Java, JavaScript}{July 2022 -- March 2024}
+      {Vermont Information Processing (Acquired Vistaar US in July 2023)}{Mumbai, India}
+      
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Ensured data integrity by conducting data cleaning, preprocessing and validations through Oracle SQL and MS Excel, resolving 95\% of data quality issues within 24 hours, and provided detailed analysis reports to stakeholders.}
+        \resumeItem{Reduced issue resolution time by 40\% for 100+ customer reported issues by performing in-depth root cause analysis (RCA) on legacy app server and Oracle database, leading to faster issue identification and customer satisfaction.}
+        \resumeItem{Automated ETL workflows by implementing Bash/Shell scripts, optimizing data workflows, and reducing manual interventions by 20\%, which led to improved data onboarding efficiency.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -155,27 +164,6 @@
 %     \resumeItemListEnd
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
-
-    \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
-      \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
@@ -204,26 +192,16 @@
 
 
 %
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
-    }}
- \end{itemize}
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
+      {University of Windsor}{Windsor, ON}
+      {Master of Applied Computing}{May 2024 -- Present}
     \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+      {University of Muumbai}{Mumbai, India}
+      {Bachelor of Engineering - Computer Engineering}{August 2018 -- May 2022}
   \resumeSubHeadingListEnd
 
 %-------------------------------------------
