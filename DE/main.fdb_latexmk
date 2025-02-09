@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1739063469.11637 "d:/Studies/Masters/CO-OP/AaryenResume/DE/main.tex" "main.pdf" "main" 1739063470.76164 0
+["pdflatex"] 1739068115.40769 "d:/Studies/Masters/CO-OP/AaryenResume/DE/main.tex" "main.pdf" "main" 1739068117.89911 0
   "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1738879782 870746 65bfbd5f1be91bb5a54a875bbbb5ea86 ""
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738875845 24224573 1fd7b39a7b92c8e860104b55f1da80a4 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -96,10 +96,10 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/Studies/Masters/CO-OP/AaryenResume/DE/main.tex" 1739063466 9880 9811d1276627da62a4e7905be14b42cf ""
-  "main.aux" 1739063470 673 73942b5a7173ade367b3b1f1b32cfae6 "pdflatex"
-  "main.out" 1739063470 390 c20df0732a26e929d2e5c5462d70cbf8 "pdflatex"
-  "main.tex" 1739063466 9880 9811d1276627da62a4e7905be14b42cf ""
+  "d:/Studies/Masters/CO-OP/AaryenResume/DE/main.tex" 1739068113 9880 9811d1276627da62a4e7905be14b42cf ""
+  "main.aux" 1739068117 673 73942b5a7173ade367b3b1f1b32cfae6 "pdflatex"
+  "main.out" 1739068117 390 c20df0732a26e929d2e5c5462d70cbf8 "pdflatex"
+  "main.tex" 1739068113 9880 9811d1276627da62a4e7905be14b42cf ""
   (generated)
   "main.aux"
   "main.log"
