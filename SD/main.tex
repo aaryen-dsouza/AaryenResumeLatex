@@ -100,6 +100,21 @@
     \end{tabular*}\vspace{-7pt}
 }
 
+\newcommand{\resumeEduSubheading}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} $|$ \textit{\small #5} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+% \newcommand{\resumeEduSubheading}[5]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} \hspace{2pt}|\hspace{2pt} \textit{\small #5} & #2 \\
+%       \textit{\small#3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
@@ -226,9 +241,10 @@
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
+    \resumeEduSubheading
       {University of Windsor}{Windsor, ON}
       {Master of Applied Computing (Grade: 85.53\%)}{May 2024 -- Present}
+      { Available for 4--8 month Co-op/Internship Starting May 2025}
     \resumeSubheading
       {University of Mumbai}{Mumbai, India}
       {Bachelor of Engineering - Computer Engineering (CGPA: 8.58/10)}{Aug 2018 -- May 2022}
