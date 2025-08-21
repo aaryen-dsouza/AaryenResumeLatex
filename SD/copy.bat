@@ -1,7 +1,7 @@
 REM filepath: /d:/Studies/Masters/CO-OP/AaryenResume/SD/copy_pdf.bat
 @echo off
 set SOURCE_DIR=d:\Canada\UoW\COOP\AaryenResumeLatex\SD
-set DEST_DIR=d:\Canada\UoW\COOP\Current
+set DEST_DIR=d:\Canada\FullTime\Current
 set SRC_PDF_NAME=main.pdf
 set DES_PDF_NAME=AaryenDSouza_SDResume.pdf
 
