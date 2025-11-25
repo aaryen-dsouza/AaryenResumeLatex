@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764038670.90483 "d:/Canada/UoW/COOP/AaryenResumeLatex/DA/main.tex" "main.pdf" "main" 1764038672.30528 0
+["pdflatex"] 1764044059.94437 "d:/Canada/UoW/COOP/AaryenResumeLatex/DA/main.tex" "main.pdf" "main" 1764044061.28289 0
   "C:/Users/dcaar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755742166 82535 0266753fb37a3d673c1d739765ad059f ""
   "C:/Users/dcaar/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739739077 12017795 f32beb1d5cc5aa6998994eaaa905771f ""
   "C:/Users/dcaar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -89,10 +89,10 @@
   "C:/Users/dcaar/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1730400552 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/dcaar/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1730400552 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "C:/Users/dcaar/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/Canada/UoW/COOP/AaryenResumeLatex/DA/main.tex" 1764038669 14301 5b43483f2c3513a6936569d6972f9aca ""
-  "main.aux" 1764038672 724 99d77ff76028c9d6c2b477cc83759b0f "pdflatex"
-  "main.out" 1764038672 458 bc793c8d2f50df4ed860e72d87bd2ac2 "pdflatex"
-  "main.tex" 1764038669 14301 5b43483f2c3513a6936569d6972f9aca ""
+  "d:/Canada/UoW/COOP/AaryenResumeLatex/DA/main.tex" 1764044058 14316 b06d42cbb2d1cc8bed552bb73726cd88 ""
+  "main.aux" 1764044061 724 99d77ff76028c9d6c2b477cc83759b0f "pdflatex"
+  "main.out" 1764044061 458 bc793c8d2f50df4ed860e72d87bd2ac2 "pdflatex"
+  "main.tex" 1764044058 14316 b06d42cbb2d1cc8bed552bb73726cd88 ""
   (generated)
   "main.aux"
   "main.log"
