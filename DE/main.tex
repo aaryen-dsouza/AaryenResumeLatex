@@ -70,11 +70,11 @@
   }
 }
 
-\newcommand{\resumeExperienceSubheading}[5]{
+\newcommand{\resumeExperienceSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} \emph{\small#2} & #3 \\
-      \textit{\small#4} & \textit{\small #5} \\
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 \newcommand{\resumeSubheading}[4]{
@@ -92,11 +92,11 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeProjectHeading}[3]{
+\newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-      \multicolumn{2}{l}{\footnotesize#3} \\
+      \small#1 & \small#2 \\
+      % \multicolumn{2}{l}{\footnotesize#3} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -150,11 +150,11 @@
 \begin{itemize}[leftmargin=0.15in, label={}]
 	\small{\item{
 	      \textbf{Languages}{: Python, Java, JavaScript, TypeScript, C, SQL, HTML/CSS} \\
-	      \textbf{Databases}{: Oracle SQL, PostgreSQL, MySQL, MongoDB, PL/SQL} \\
-	      \textbf{Data Manipulation \& Visualization}{: Pandas, NumPy, Matplotlib, Seaborn, Tableau, Power BI, PySpark, dbt, ArcGIS} \\
+	      \textbf{Databases \& BI}{: Oracle SQL, PostgreSQL, MySQL, MongoDB, PL/SQL, Data Modeling, Query Optimization} \\
+	      \textbf{Data Manipulation \& Visualization}{: Power BI, Tableau, PySpark, dbt, Pandas, NumPy, Matplotlib, Seaborn, ArcGIS} \\
 	      \textbf{Frameworks}{: React, Django, Redux, Node.js, Express, WordPress, Material-UI, Bootstrap, Tailwind CSS} \\
 	      \textbf{Dev Tools}{: Git, GitHub, Jupyter Notebook, Google Collab, VS Code, DataGrip, PyCharm, IDEA, Postman, Jira} \\
-	      \textbf{Other Skills}{: Windows, Linux/Unix (Ubuntu, CentOS), Shell Scripting, Microsoft Excel, Google Sheets}
+	      \textbf{Other Skills}{: Data Wrangling, Reporting Automation, Shell Scripting, Microsoft Excel, Google Sheets, Windows, Linux}
 	      }}
 \end{itemize}
 
@@ -164,31 +164,33 @@
 \resumeSubHeadingListStart
 
 \resumeExperienceSubheading
-{Data Analyst Intern}{$|$ Power BI, Oracle SQL, MS Excel, Python, SharePoint}{May 2025 -- Present}
+{Data Analyst Intern}{May 2025 -- Present}
 {Office of Institutional Analysis, University of Windsor}{Windsor, Ontario, Canada}
 
 \resumeItemListStart
-% \resumeItem{Developed and maintained \textbf{centralized data models and reports} using \textbf{SQL, Power BI, and Excel}, improving accessibility of key institutional metrics across departments.}
-\resumeItem{Designed and implemented \textbf{data models and dashboards in Power BI and SQL}, enabling 5+ university departments to access self-service insights on enrolment, retention, and performance metrics.}
-\resumeItem{Performed \textbf{data extraction, transformation, and quality assurance} on large university datasets (100K+ records) using \textbf{SQL and Python}, ensuring accuracy and consistency in reporting.}
-% \resumeItem{Created clear \textbf{process documentation and reporting guidelines}, enhancing reproducibility of analysis and reducing onboarding time for new team members.}
-\resumeItem{Leveraged \textbf{ArcGIS} to visualize and analyze student residence distributions using FSA-level postal codes, generating spatial insights that informed enrolment strategy, resource planning, and evidence-based decision-making for senior leadership.}
-\resumeItem{Authored \textbf{comprehensive reporting documentation and query guidelines}, cutting onboarding time for new analysts by \textbf{25\%} and ensuring reproducibility across the OIA team.}
+\resumeItem{Designed and implemented \textbf{SQL-based data models} and \textbf{Power BI dashboards}, enabling 5+ departments to access self-service insights on enrolment, retention, performance metrics, and institutional trends.}
+\resumeItem{Performed \textbf{data extraction}, \textbf{transformation}, and \textbf{quality assurance (QA)} on 100K+ records using \textbf{SQL} and \textbf{Python}, ensuring high accuracy and consistency across reporting workflows.}
+\resumeItem{Developed reusable \textbf{DAX measures}, trend and variance analysis logic, and forecasting components to support recurring dashboards while reducing dependency on ad-hoc reports.}
+\resumeItem{Automated reporting workflows with \textbf{SQL}, \textbf{Excel}, and \textbf{Python}, improving refresh reliability, reducing manual steps, and standardizing delivery timelines for key reports.}
+% \resumeItem{Authored \textbf{comprehensive reporting documentation and query guidelines}, cutting onboarding time for new analysts by \textbf{25\%} and ensuring reproducibility across the OIA team.}
+\resumeItem{Generated actionable insights on enrolment shifts, term-over-term patterns, retention trends, and KPI fluctuations, supporting evidence-based planning and strategic decision-making.}
+
 
 
 
 \resumeItemListEnd
 
 \resumeExperienceSubheading
-{Software Engineer}{$|$ Power BI, Oracle SQL, dbt, Python, MS Excel, Bash/Shell Scripting, Java, Linux, Jira}{Jul 2022 -- Mar 2024}
+{Software Engineer}{Jul 2022 -- Mar 2024}
 {Vermont Information Processing}{Mumbai, India}
 
 \resumeItemListStart
-\resumeItem{Ensured data integrity by cleaning, preprocessing and validating data in \textbf{Oracle SQL} and \textbf{MS Excel}, fixing 95\% of data quality issues, and providing detailed analysis reports for price plans, reimbursements and chargebacks.}
-% \vspace{-11pt}
-\resumeItem{Reduced issue resolution time by 40\% for 100+ customer-reported issues by performing in-depth root cause analysis (RCA) on legacy app server and Oracle database, leading to faster issue identification and customer satisfaction.}
-\resumeItem{Automated ETL workflows by implementing \textbf{Bash/Shell} scripts, optimizing data workflows, and reducing manual interventions by 20\%, which led to streamlined data onboarding efficiency.}
-% \resumeItem{Standardized data integration and system configuration \textbf{documentation} by creating clear process guides which reduced onboarding time for new team members by \textbf{25\%} and improved cross-team collaboration.}
+\resumeItem{Ensured data integrity by cleaning, validating, and reconciling large-scale pricing, reimbursement, and chargeback datasets using \textbf{Oracle SQL} and \textbf{Excel}, resolving \textbf{95\%} of data quality issues and improving reporting confidence.}
+\resumeItem{Performed detailed \textbf{trend analysis}, \textbf{variance analysis}, and \textbf{anomaly detection} on transactional datasets to identify recurring discrepancies, uncover root causes, and reduce repeated data-related issues by \textbf{40\%}.}
+\resumeItem{Built automated \textbf{ETL workflows} using \textbf{Bash/Shell} scripting and Excel automation, reducing manual intervention by \textbf{20\%}, improving data onboarding speed, and standardizing routine processing tasks.}
+\resumeItem{Developed interactive \textbf{Power BI dashboards} that visualized revenue trends, reimbursement cycles, chargeback patterns, and operational KPIs, strengthening analytical visibility for business and support teams.}
+\resumeItem{Created SQL-driven \textbf{analytical summaries}, \textbf{QA checks}, and \textbf{validation reports} to improve visibility into key metrics, enhance data reliability, and support internal decision-making workflows.}
+\resumeItem{Collaborated with engineering, support, and business teams to interpret data issues, deliver actionable insights, and help stabilize system performance while improving the accuracy of customer-facing datasets.}
 \resumeItemListEnd
 
 % -----------Multiple Positions Heading-----------
@@ -208,31 +210,27 @@
 \section{Projects}
 \resumeSubHeadingListStart
 \resumeProjectHeading
-{\textbf{Loan Insights Dashboard} $|$ \emph{Power BI, SQL, Data Visualization, Dashboard Design, Financial Analytics, Git}}{Jan 2025}
-{\href{https://github.com/aaryen-dsouza/Loan_Insights_Dashboard}{\underline{GitHub}}}
+{\textbf{Loan Insights Dashboard} $|$ \emph{Power BI, SQL, Data Visualization, Dashboard Design, Financial Analytics, Git}}{\href{https://github.com/aaryen-dsouza/Loan_Insights_Dashboard}{\underline{GitHub}}}
 \resumeItemListStart
 \resumeItem{Developed an interactive loan data analysis dashboard using \textbf{Power BI} and \textbf{SQL}, enabling real-time insights into 5+ key financial metrics, borrower behavior, and loan performance, improving data accessibility for decision-makers.}
 \resumeItem{Enhanced data visualization and reporting by implementing \textbf{10+ KPI} tracking, trend analysis, and loan classification, improving financial strategy planning.}
 % \resumeItem{Optimized loan performance tracking by improving \textbf{data processing} and designing \textbf{3 interactive dashboards}, enabling better risk assessment and lending pattern identification.}
 \resumeItemListEnd
 \resumeProjectHeading
-{\textbf{Predictive Caching for Web Pages} $|$ \emph{Python, Pandas, Matplotlib, Statsmodels, Scikit-learn, Git}}{Nov 2024}
-{\href{https://github.com/sharansukesh1003/COMP-8157-Final-Project}{\underline{GitHub}}}
+{\textbf{Predictive Caching for Web Pages} $|$ \emph{Python, Pandas, Matplotlib, Statsmodels, Scikit-learn, Git}}{\href{https://github.com/sharansukesh1003/COMP-8157-Final-Project}{\underline{GitHub}}}
 \resumeItemListStart
-\resumeItem{Created a hybrid AI-driven caching system combining \textbf{ARIMA} for time-series forecasting and LLM for contextual analysis, improving cache efficiency and reducing latency in high-traffic scenarios.}
-% \resumeItem{Improved data quality by automating data preprocessing, normalization, and missing value imputation using \textbf{Python} and \textbf{Pandas}, ensuring high-quality inputs for predictive models.}
-% \resumeItem{Conducted exploratory data analysis (EDA) on web traffic data, identifying trends such as average daily and monthly page views, and visualized key insights using \textbf{Matplotlib.}}
-\resumeItem{Automated data preprocessing for 1M+ records, implementing normalization, and missing value imputation leveraging \textbf{Python} and \textbf{Pandas}, to guarantee reliable data for predictive models, and conducted exploratory data analysis (EDA) on 500K+ web traffic data to identify trends and visualize key insights with \textbf{Matplotlib.}}
-\resumeItem{Built and optimized ARIMA models to forecast future page views, achieving high accuracy with RMSE values of \textbf{4.41} for ARIMA and \textbf{4.67} for Auto-ARIMA, and generated forecasts for the next 30 days.}
+\resumeItem{Engineered a hybrid caching system that combined \textbf{ARIMA}-based forecasting with LLM-driven context analysis, improving cache efficiency and reducing latency in high-traffic environments.}
+\resumeItem{Processed \textbf{1M+} traffic records with automated preprocessing and built ARIMA/Auto-ARIMA models achieving \textbf{RMSE 4.41–4.67}, generating \textbf{30-day} page-view forecasts.}
+
 \resumeItemListEnd
 \resumeProjectHeading
-{\textbf{Stress Level Prediction Using Machine Learning} $|$ \emph{Python, Pandas, Matplotlib, Seaborn, Scikit-learn, Git}}{Nov 2024}
-{\href{https://github.com/aaryen-dsouza/stress-prediction-ml}{\underline{GitHub}}}
+{\textbf{Stress Level Prediction Using Machine Learning} $|$ \emph{Python, Pandas, Matplotlib, Seaborn, Scikit-learn, Git}}{\href{https://github.com/aaryen-dsouza/stress-prediction-ml}{\underline{GitHub}}}
 \resumeItemListStart
-  \resumeItem{Developed a stress prediction model for a mobile app by analyzing \textbf{20,500+} user behavior metrics, optimizing and training ML models on digital wellbeing data including screen time, game time, app usage, and social media activity.}
-  % \vspace{-11pt}
-  \resumeItem{Refined data quality by implementing data preprocessing, encoding, and normalizing 7+ numerical features utilizing \textbf{Python} and \textbf{Pandas}, ensuring high-quality inputs for predictive modeling.}
-  \resumeItem{Trained and enhanced model performance by optimizing \textbf{Random Forest} and \textbf{XGBoost} hyperparameters, increasing classification accuracy to \textbf{77\%}.}
+\resumeItem{Analyzed \textbf{20,500+} behavioral metrics including screen time, gaming, app usage, and social media activity to develop a digital-wellbeing stress prediction model using ML algorithms.}
+
+\resumeItem{Performed preprocessing, feature engineering, and model tuning for \textbf{Random Forest} and \textbf{XGBoost}, improving predictive accuracy to \textbf{77\%} and identifying key behavioral drivers.}
+
+
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
