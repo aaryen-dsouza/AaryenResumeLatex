@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  2 MAR 2026 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.4)  5 MAR 2026 00:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -254,6 +254,22 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \TX@delta=\dimen174
 \TX@cols=\count302
 \TX@ftn=\toks25
+) (C:\Users\CREED\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip71
+\RaggedLeftLeftskip=\skip72
+\RaggedRightLeftskip=\skip73
+\CenteringRightskip=\skip74
+\RaggedLeftRightskip=\skip75
+\RaggedRightRightskip=\skip76
+\CenteringParfillskip=\skip77
+\RaggedLeftParfillskip=\skip78
+\RaggedRightParfillskip=\skip79
+\JustifyingParfillskip=\skip80
+\CenteringParindent=\skip81
+\RaggedLeftParindent=\skip82
+\RaggedRightParindent=\skip83
+\JustifyingParindent=\skip84
 ) (C:\Users\CREED\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\CREED\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 ) (C:\Users\CREED\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\charter.sty
@@ -363,15 +379,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9EF690A232B3DEFA8035C365B828D0D9;604.
  ) 
 Here is how much of TeX's memory you used:
- 11134 strings out of 467871
- 178799 string characters out of 5418377
- 642019 words of memory out of 5000000
- 39872 multiletter control sequences out of 15000+600000
- 646343 words of font info for 69 fonts, out of 8000000 for 9000
+ 11220 strings out of 467871
+ 180730 string characters out of 5418377
+ 640855 words of memory out of 5000000
+ 39955 multiletter control sequences out of 15000+600000
+ 645206 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,628b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/CREED/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/CREED/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/CREED/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/CREED/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/CREED/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (1 page, 80950 bytes).
+Output written on main.pdf (1 page, 80946 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)

@@ -23,7 +23,9 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{ragged2e}
 \input{glyphtounicode}
+\setlength{\emergencystretch}{3em}
 
 
 %----------FONT OPTIONS----------
@@ -70,36 +72,34 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+  \item \small \justifying #1\par\vspace{-2pt}
 }
 
 \newcommand{\resumeExperienceSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+    \begin{tabular*}{\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+      \textbf{#1} & \textbf{#2} \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+    \begin{tabular*}{\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+      \textbf{#1} & \textbf{#2} \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
       \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeProjectHeading}[3]{
     \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
       \small#1 $|$ \emph{\small#2} & \small#3 \\
     %   \multicolumn{2}{l}{\footnotesize#3} \\
     \end{tabular*}\vspace{-7pt}
@@ -108,7 +108,7 @@
 
 \newcommand{\resumeEduSubheading}[5]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
       \textbf{#1} $|$ \textit{\small #5} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
@@ -153,19 +153,19 @@
 %-----------PROFESSIONAL SUMMARY-----------
 \vspace{-6pt}
 \section{Professional Summary}
-\small
+{\small\justifying
 Results-driven \textbf{Data Analyst} with a Master’s in Applied Computing and \textbf{2+ years of experience} specializing in \textbf{SQL, Python, and Power BI}. Proven ability to transform \textbf{100K+ record datasets} into actionable KPI-driven insights, enabling self-service analytics across \textbf{5+ departments} and reducing recurring data issues by \textbf{40\%}. Experienced in data modeling, ETL automation, and reporting optimization, seeking a full-time Data Analyst role focused on scalable analytics and strategic decision support.
-\normalsize
+\par}
 
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0in, label={}]
 	\small{\item{
-	      \textbf{Data Analysis}{: Python, Java, SQL, KPI Reporting, Trend Analysis, Data Validation, Dashboarding} \\
-	      \textbf{Databases}{: Oracle SQL, PostgreSQL, MySQL, MongoDB, SSRS, PL/SQL} \\
-	      \textbf{Data Manipulation \& Visualization}{: Power BI, Tableau, PySpark, dbt, Pandas, NumPy, Matplotlib, Seaborn} \\
-	      \textbf{Dev Tools}{: Docker, Git, GitHub, Jupyter Notebook, Google Collab, SharePoint, Postman, Jira} \\
-	      \textbf{Other Skills}{: Microsoft Excel, Google Sheets, Data Wrangling, Reporting Automation, Bash Scripting}
+	      \textbf{Programming \& Querying}{: Python, SQL (Oracle, PostgreSQL, MySQL), Java, PL/SQL} \\
+	      \textbf{Data Processing}{: Pandas, NumPy, PySpark, dbt} \\
+	      \textbf{Visualization \& BI}{: Power BI, Tableau, DAX} \\
+	      \textbf{Databases \& Cloud}{: Oracle, PostgreSQL, MySQL, MongoDB, AWS (EC2, RDS, S3)} \\
+	      \textbf{Tools}{: Git, Docker, Jupyter Notebook, Postman, Jira, Bash/Shell, Excel, Google Sheets}
 	      }}
 \end{itemize}
 
@@ -201,7 +201,8 @@ Results-driven \textbf{Data Analyst} with a Master’s in Applied Computing and 
 % \vspace{-11pt}
 % \resumeItem{Reduced issue resolution time by 40\% for 100+ customer-reported issues by performing in-depth root cause analysis (RCA) on legacy app server and Oracle database, leading to faster issue identification and customer satisfaction.}
 \resumeItem{Conducted \textbf{trend analysis}, \textbf{variance analysis}, and \textbf{anomaly detection} on high-volume transactional data to identify root causes of discrepancies and reduce recurring issues by \textbf{40\%}.}
-\resumeItem{Automated ETL workflows by implementing \textbf{Bash/Shell} scripts and \textbf{Excel} automation, optimizing data workflows, and reducing manual interventions by 20\%, which led to streamlined data onboarding efficiency.}
+% \resumeItem{Automated ETL workflows by implementing \textbf{Bash/Shell} scripts and \textbf{Excel} automation, optimizing data workflows, and reducing manual interventions by 20\%, which led to streamlined data onboarding efficiency.}
+\resumeItem{Automated \textbf{ETL workflows} on \textbf{AWS EC2}, ingesting data from \textbf{S3 buckets} and \textbf{SFTP servers} into \textbf{RDS databases} using \textbf{Bash scripts} and \textbf{SQL}.}
 \resumeItem{Developed interactive \textbf{Power BI dashboards} to visualize key metrics such as revenue trends, chargeback patterns, and reimbursement cycles, enhancing stakeholder decision-making.}
 % \resumeItem{Built SQL-driven analytical summaries, quality checks, and verification reports, improving visibility into key data metrics for internal teams.}
 \resumeItem{Built SQL-driven \textbf{analytical summaries}, \textbf{quality checks}, and \textbf{verification reports}, improving visibility into key data metrics.}
@@ -264,11 +265,11 @@ Results-driven \textbf{Data Analyst} with a Master’s in Applied Computing and 
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
-{University of Windsor}{Windsor, Ontario, Canada}
-{Master of Applied Computing (Grade: 88.44\%)}{May 2024 -- Dec 2025}
+{University of Windsor}{May 2024 -- Dec 2025}
+{Master of Applied Computing (Grade: 88.44\%)}{Windsor, Ontario, Canada}
 \resumeSubheading
-{University of Mumbai}{Mumbai, Maharashtra, India}
-{Bachelor of Engineering - Computer Engineering (CGPA: 8.58/10)}{Aug 2018 -- May 2022}
+{University of Mumbai}{Aug 2018 -- May 2022}
+{Bachelor of Engineering - Computer Engineering (CGPA: 8.58/10)}{Mumbai, Maharashtra, India}
 \resumeSubHeadingListEnd
 
 %-------------------------------------------
